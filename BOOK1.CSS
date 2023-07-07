@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/*nav bar styling*/
+nav {
+    font-family: 'Poppins', sans-serif;
+    height: 100px;
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.logo {
+    width: 50px;
+    height: 60px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+}
+
+nav ul li a {
+    padding: 10px 12px;
+    color: #c7c2b9;
+    text-decoration: none;
+
+}
+nav ul li a:hover {
+    padding: 10px 12px;
+    color: #222221;
+    text-decoration: none;
+    background-color: grey;
+
+}
+
+/*intro styling*/
+.intro ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.intro1 {
+    width: 800px;
+    height: 800px;
+}
+
+.intro ul ol {
+    list-style-type: none;
+    background-image: url(BACK.PNG.png);
+    background-size: 80px 250px;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    padding-left : 100px;
+
+
+}
+
+.intro ul ol h1 {
+    font-family: 'DM Serif Display', serif;
+    color: rgb(245, 245, 245);
+    font-size: 6rem;
+    padding-top: 300px;
+
+    text-align: center;
+    text-decoration-line: underline;
+    text-shadow: 5px 2px rgb(102, 101, 101);
+    text-decoration-color: rgb(255, 255, 255);
+}
+
+.intro ul ol h3 {
+    font-family: 'Fasthand', cursive;
+    color: rgb(249, 246, 246);
+    font-size: 3rem;
+    padding-left: 200px;
+    text-align: right;
+    text-shadow: 2px 2px rgb(13, 13, 13);
+}
+
+.intro ul ol button {
+    padding-left: 100px;
+    border-radius: 10px;
+    padding: 12px 12px;
+    background-color: rgb(0, 0, 0);
+    
+    text-decoration: none;
+    color: rgb(244, 243, 243);
+    text-align: center;
+    font-size: 1rem;
+    border: 2px solid rgb(114, 114, 116);
+    width: 250px;
+
+
+}
+
+
+.intro ul ol button:hover{
+    background-color: white;
+    color : rgb(2, 2, 2);
+    text-decoration : underline;
+    font-weight: bolder;
+    cursor : pointer;
+    
+}
+
+
+/*end of intro styling*/
+.line {
+    border-top: 5px solid rgb(131, 150, 150);
+}
+/*best selling*/
+.best{
+    padding : 30px;
+    background-image: linear-gradient(TO bottom LEFT,black,rgb(85, 84, 84));
+}
+.best h1{
+    font-family: 'DM Serif Display', serif;
+    color: rgb(245, 245, 245);
+    font-size: 3rem;
+    text-align: center;
+    text-decoration-line: underline;
+    text-shadow: 5px 2px rgb(102, 101, 101);
+    text-decoration-color: rgb(255, 255, 255);
+}
+.best h3{
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(249, 246, 246);
+    font-size: 1.5rem;
+    padding-left: 300px;
+    text-align: center;
+    text-shadow: 2px 2px rgb(82, 78, 78);
+    padding-bottom: 20px;
+    
+}
+.best ol{
+    display : flex;
+    list-style-type:none;
+    justify-content: space-around;
+}
+.sell{
+    border : rgb(7, 7, 7);
+    box-shadow :3px 3px 3px 3px whitesmoke;
+    width : 250px;
+    height: 700px;
+    text-align : center;
+    font-family: 'Quicksand', sans-serif;
+    padding : 10px;
+    background-image : linear-gradient(to bottom right,black,grey);
+    color : white;
+}
+.sell img{
+    width: 220px;
+    height : 300px;
+}
+
+.sell h4{
+    font-size:1.5rem;
+}
+
+.author{
+    font-size : 1rem;
+    text-align : right;
+}
+
+.sell  ul{
+    display : flex;
+    list-style-type: none;
+    padding : 10px;
+    justify-content: space-between;
+}
+
+.sell p{
+    text-align : left;
+}
+
+.sell ul li button{
+    border :3px solid rgb(13, 13, 13);
+    border-radius: 3px;;
+    background-color :rgb(42, 39, 36);
+    color : white;
+    padding: 5px;
+}  
+
+.sell ul li button:active{
+    background-color : green;
+}
+.sell ul li button:focus{
+    background-color : green;
+}
+/*end of best selling */
+/*recommendation*/
+.recommend{
+    padding : 30px;
+    background-image: linear-gradient(TO bottom right,black,rgb(85, 84, 84));
+}
+
+
+.recommend h1{font-family: 'DM Serif Display', serif;
+    color: rgb(245, 245, 245);
+    font-size: 3rem;
+    text-align: center;
+    text-decoration-line: underline;
+    text-shadow: 5px 2px rgb(102, 101, 101);
+    text-decoration-color: rgb(255, 255, 255);
+}
+.recommend h3{
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(249, 246, 246);
+    font-size: 1.5rem;
+    padding-left: 300px;
+    text-align: center;
+    text-shadow: 2px 2px rgb(55, 53, 53);
+    padding-bottom: 20px;
+}
+
+.recommend form{
+    padding-top : 50px;
+    padding-left: 500px;
+    padding-bottom: 20px;
+}
+
+.recommend input[type=text]{
+    width : 400px;
+    height : 30px;
+    border: 2px solid whitesmoke;
+    background-color: black;
+    color : white;
+    text-align: center;
+    border-radius: 5px;
+   
+}
+
+.recommend input[type=text]:hover{
+    cursor :text;
+    width : 400px;
+    height : 30px;
+    border: 2px solid rgb(10, 10, 10);
+    background-color: rgb(238, 233, 233);
+    color : rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 5px;
+   
+}
+
+.recommend form  img{
+    height : 30px;
+    width : 30px;
+}
+.recommend ol{
+    display : flex;
+    list-style-type:none;
+    justify-content: space-around;
+}
+.r{    border : rgb(7, 7, 7);
+    box-shadow :3px 3px 3px 3px whitesmoke;
+    width : 250px;
+    height: 700px;
+    text-align : center;
+    font-family: 'Quicksand', sans-serif;
+    padding : 10px;
+    background-image : linear-gradient(to top left,black,grey);
+    color : white;
+}
+.r img{
+    width: 220px;
+    height : 300px;
+}
+
+.r h4{
+    font-size:1.5rem;
+}
+
+.author{
+    font-size : 1rem;
+    text-align : right;
+}
+
+.r  ul{
+    
+    display : flex;
+    list-style-type: none;
+    padding : 10px;
+    justify-content: space-between;
+    
+}
+
+.r p{
+    text-align : left;
+}
+
+.r ul li button{
+    border :3px solid rgb(13, 13, 13);
+    border-radius: 3px;;
+    background-color :rgb(42, 39, 36);
+    color : white;
+    padding: 5px;
+}  
+
+.r ul li button:focus{
+    background-color : green;
+}
+/*end of recommendations*/
+/*review section  styling*/
+.reviews{
+    font-family: 'Quicksand', sans-serif;
+    background-image:linear-gradient(to bottom right,black, rgb(109, 107, 107)) ;
+}
+.reviews h1 {
+    font-family: 'DM Serif Display', serif;
+    color: rgb(245, 245, 245);
+    font-size: 3rem;
+    text-align: center;
+    text-decoration-line: underline;
+    text-shadow: 5px 2px rgb(102, 101, 101);
+    text-decoration-color: rgb(255, 255, 255);
+}
+
+.reviews ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+.reviews ol{
+    display : flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding : 50px
+   
+}
+
+.rev1{
+    border : 2px solid whitesmoke;
+    border-radius: 5px;
+    height : 150px;
+    width  : 500px;
+    padding : 50px;
+    color : white;
+    
+    text-align: right;
+
+}
+.rev1 img{
+    height: 80px;
+    width: 80px;
+    float : left
+
+}
+
+.rev2{
+    border : 2px solid whitesmoke;
+    border-radius: 5px;
+    height : 100px;
+    width  : 500px;
+    padding : 50px;
+    color : white;
+    
+    text-align: right;
+
+}
+.rev2 img{
+    height: 80px;
+    width: 80px;
+    float : left
+
+}
+
+
+.reviews ul li form {
+    Width : 200px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    color: rgb(162, 159, 159);
+    padding: 10px;
+
+}
+
+.reviews ul li form input[type=text] {
+    background-color: rgb(12, 12, 12);
+    color: rgb(162, 159, 159);
+    border: 2px solid grey;
+    border-radius: 5px;
+    Width : 180px;
+    Height : 30px;
+}
+
+.reviews ul li form input[type=date] {
+    background-color: rgb(10, 10, 10);
+    color: rgb(162, 159, 159);
+    border: 2px solid grey;
+    border-radius: 5px;
+
+}
+
+
+.reviews ul li form input[type=submit] {
+    background-color: rgb(17, 17, 17);
+    color: rgb(162, 159, 159);
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+
+.reviews ul li form textarea {
+    background-color: rgb(6, 6, 6);
+    color: rgb(162, 159, 159);
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/*end of review styling*/
+
+
+/*footer styling*/
+footer{
+    padding : 30px;
+
+    
+}
+footer h4{
+    color:beige;
+    font-size: 2rem;
+}
+footer h5{
+    color:azure;
+    padding-left: 130px;
+    font-size: 1rem;
+
+}
+footer ul{
+    display: flex;
+    list-style-type: none;
+   
+    padding : 30 px;
+  
+}
+.sm{
+    display : flex;
+    list-style-type: none;
+    
+}
+.sm img {
+    height : 20px;
+    width : 20px;
+    align-items: left;
+    padding-right: 20px;
+}
+.com li{
+   padding-left: 800px;
+   padding-right: 300px;
+}
+.com li a{
+    
+    color :beige;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+
+footer ul li button{
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    bottom : 0;
+    border :2px solid whitesmoke;
+    border-radius: 50px;
+}
+footer ul li button img{
+    height : 50px;
+    width: 50px;
+
+}
+
